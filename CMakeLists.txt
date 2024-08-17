@@ -3,4 +3,5 @@ project(virtual_universe C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(virtual_universe main.c)
+add_subdirectory(core)
+
